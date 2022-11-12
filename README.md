@@ -5,20 +5,12 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version: 3.1.2
+ 
+* System dependencies:  
 
-* System dependencies
+* Database creation: Postgresql
 
-* Configuration
+* Database initialization: run `rake db:seed` after adding new data to ensure it is updated
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* How to run the API: `rails s` then go to `http://localhost:3000/api/v1/products/`
